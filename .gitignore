@@ -1,0 +1,11 @@
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+.cache/
+node_modules/
+packages/flatpak.txt
+fcitx5-data/.local/share/fcitx5/rime/build/
+fcitx5-data/.local/share/fcitx5/rime/.git/
+fcitx5-data/.local/share/fcitx5/rime/.github/

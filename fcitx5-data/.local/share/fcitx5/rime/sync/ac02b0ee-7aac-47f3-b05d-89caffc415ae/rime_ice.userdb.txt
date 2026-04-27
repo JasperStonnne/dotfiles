@@ -1,0 +1,124 @@
+# Rime user dictionary
+#@/db_name	rime_ice
+#@/db_type	userdb
+#@/rime_version	1.16.1
+#@/tick	134
+#@/user_id	ac02b0ee-7aac-47f3-b05d-89caffc415ae
+F 	F	c=1 d=1 t=127
+a 	啊	c=0 d=0.1 t=112
+ba 	吧	c=1 d=1 t=123
+bang wo 	帮我	c=0 d=0.1 t=121
+bang wo gai yi xia 	帮我改一下	c=1 d=1 t=122
+bi jiao 	比较	c=2 d=1.94649 t=22
+bo fang qi 	播放器	c=1 d=1 t=117
+bu liao 	不了	c=1 d=1 t=80
+bu zhi dao 	不知道	c=1 d=1 t=59
+cao zuo 	操作	c=1 d=1 t=28
+chou 	丑	c=1 d=1 t=3
+chu 	处	c=1 d=1 t=26
+dan shi 	但是	c=3 d=2.62548 t=91
+de 	的	c=5 d=3.74357 t=116
+dian 	点	c=1 d=1 t=96
+dou ke yi 	都可以	c=0 d=0.1 t=51
+dou ke yi kan 	都可以看	c=1 d=1 t=52
+dou mei you 	都没有	c=1 d=1 t=110
+dui 	对	c=2 d=1.92774 t=100
+en 	嗯	c=0 d=0.1 t=92
+fa 	法	c=1 d=1 t=6
+fa gei ni 	发给你	c=1 d=1 t=75
+fang wen 	访问	c=1 d=1 t=34
+feng 	风	c=1 d=1 t=109
+fu jia 	附加	c=2 d=1.97045 t=70
+gai de 	改得	c=0 d=0.1 t=104
+gai yi xia 	改一下	c=0 d=0.1 t=121
+gan jue 	感觉	c=1 d=1 t=92
+gao 	搞	c=1 d=1 t=62
+hao chou a 	好丑啊	c=1 d=1 t=106
+hao de 	好的	c=2 d=1.89583 t=98
+hao kan 	好看	c=1 d=1 t=36
+hao yong de 	好用的	c=1 d=1 t=12
+ji ke 	极客	c=1 d=1 t=108
+jian bian 	渐变	c=1 d=1 t=29
+jian bian 	简便	c=1 d=1 t=30
+jie tu 	截图	c=2 d=1.78663 t=61
+jin 	进	c=1 d=1 t=79
+jin bu qu 	进不去	c=1 d=1 t=56
+ju ti dian 	具体点	c=2 d=1.98511 t=132
+kai shi 	开始	c=1 d=1 t=102
+kan 	看	c=0 d=0.1 t=51
+ke 	客	c=1 d=1 t=23
+ke yi 	可以	c=1 d=1 t=126
+ke yi a 	可以啊	c=1 d=1 t=128
+le 	了	c=1 d=1 t=90
+li 	里	c=1 d=1 t=10
+lve wei 	略微	c=1 d=1.099 t=94
+lve wei en 	略微嗯	c=1 d=1 t=93
+ma 	吗	c=3 d=2.91259 t=31
+ma a 	妈啊	c=0 d=0.1 t=82
+mei fa 	没法	c=1 d=1 t=33
+na 	哪	c=1 d=1 t=73
+ne 	呢	c=0 d=0.1 t=38
+neng gan ma 	能干吗	c=2 d=1.98511 t=134
+ni 	你	c=0 d=0.1 t=104
+ni gai de 	你改得	c=1 d=1 t=105
+ni jue de 	你觉得	c=1 d=1 t=103
+ni shuo de 	你说的	c=2 d=1.92774 t=99
+pan 	盘	c=2 d=1.98511 t=54
+qu 	去	c=2 d=1.63128 t=111
+quan xian 	权限	c=0 d=0.1 t=38
+quan xian ne 	权限呢	c=1 d=1 t=39
+rang wo men 	让我们	c=1 d=1 t=101
+ru guo 	如果	c=1 d=1 t=77
+shang 	上	c=2 d=1.63128 t=112
+sheng xing 	盛行	c=2 d=1.60957 t=115
+shi 	是	c=2 d=1.85642 t=118
+shi ge sha 	是个啥	c=1 d=1 t=125
+shi shen me 	是什么	c=1 d=1 t=14
+shi zhi xing 	实质性	c=1 d=1 t=82
+shu ru 	输入	c=1 d=1 t=5
+sun shi 	损失	c=0 d=0.1 t=82
+sun shi ma a 	损失妈啊	c=1 d=1 t=83
+tou ming 	透明	c=1 d=1 t=119
+wan zheng 	完整	c=1 d=1 t=38
+wo 	我	c=3 d=2.80966 t=49
+wo bu 	我不	c=1 d=1 t=78
+wo cheng gong 	我成功	c=1 d=1 t=89
+wo fa xian 	我发现	c=1 d=1 t=47
+wo gan jue 	我感觉	c=1 d=1 t=1
+wo gei ni 	我给你	c=1 d=1 t=37
+wo jin tian 	我今天	c=1 d=1 t=41
+wo jue de 	我觉得	c=1 d=1 t=104
+wo mei you 	我没有	c=1 d=1.09704 t=68
+wo mei you zhao dao 	我没有找到	c=1 d=1 t=63
+wo xiang 	我想	c=1 d=1 t=18
+wo xiang yao 	我想要	c=2 d=1.65705 t=124
+wo yao 	我要	c=1 d=1 t=120
+wo yong 	我用	c=1 d=1 t=57
+wo zen me 	我怎么	c=2 d=1.81058 t=74
+xi tong 	系统	c=1 d=1 t=45
+xi tong pan 	系统盘	c=1 d=1 t=35
+xia de 	下的	c=1 d=1 t=50
+xia zai 	下载	c=1 d=1 t=121
+xian shi 	显示	c=1 d=1 t=55
+xiang zhi dao 	想知道	c=1 d=1 t=9
+xiao 	小	c=1 d=1 t=97
+yi dian 	一点	c=1 d=1 t=107
+yi ran 	依然	c=1 d=1 t=15
+ying wen 	英文	c=0 d=0.1 t=87
+ying wen de 	英文的	c=1 d=1 t=88
+you 	有	c=2 d=1.93239 t=95
+you dian 	有点	c=1 d=1 t=2
+you sha 	有啥	c=1 d=1 t=25
+zai na 	在那	c=1 d=1 t=67
+zen me 	怎么	c=1 d=1 t=60
+zhao dao 	找到	c=1 d=1.09656 t=69
+zhao yi ge 	找一个	c=1 d=1 t=21
+zhao yi zhao 	找一找	c=0 d=0.1 t=112
+zhao yi zhao a 	找一找啊	c=1 d=1 t=113
+zhe ge 	这个	c=3 d=2.50977 t=133
+zhi bu guo 	只不过	c=1 d=1 t=86
+zhuang 	装	c=1 d=1 t=43
+zhuang da 	壮大	c=1 d=1 t=42
+zu jian 	组件	c=2 d=1.97045 t=72
+zu jian 	组建	c=2 d=1.97045 t=71
+zui 	最	c=1 d=1 t=114
