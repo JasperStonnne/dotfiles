@@ -1,6 +1,6 @@
 [Ptyxis]
 default-profile-uuid='8c8215ea3b407db38f87157a69ef238a'
-font-name='Smile Nerd Font Mono 11'
+font-name='Smile Nerd Font Mono 12'
 interface-style='dark'
 profile-uuids=['8c8215ea3b407db38f87157a69ef238a']
 use-system-font=false
@@ -40,17 +40,20 @@ sources=[('xkb', 'us')]
 [desktop/interface]
 accent-color='purple'
 color-scheme='default'
-document-font-name='Smile Nerd Font Mono 11'
-font-name='Smile Nerd Font Mono 11'
+document-font-name='Smile Nerd Font Mono 12'
+font-name='Smile Nerd Font Mono 12'
 gtk-theme='Yaru-purple'
 icon-theme='Yaru-purple'
-monospace-font-name='Smile Nerd Font Mono 11'
+monospace-font-name='Smile Nerd Font Mono 12'
 
 [desktop/notifications]
-application-children=['qq', 'org-gnome-nautilus', 'google-chrome', 'org-gnome-ptyxis', 'org-gnome-texteditor', 'firefox-firefox', 'clash-verge', 'wechat']
+application-children=['qq', 'org-gnome-nautilus', 'google-chrome', 'org-gnome-ptyxis', 'org-gnome-texteditor', 'firefox-firefox', 'clash-verge', 'wechat', 'code']
 
 [desktop/notifications/application/clash-verge]
 application-id='Clash Verge.desktop'
+
+[desktop/notifications/application/code]
+application-id='code.desktop'
 
 [desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
@@ -123,10 +126,10 @@ name='Flameshot'
 power-button-action='suspend'
 
 [shell]
-app-picker-layout=[{'org.gnome.Calculator.desktop': <{'position': <0>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <1>}>, 'gnome-language-selector.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'net.nokyan.Resources.desktop': <{'position': <4>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <5>}>, 'update-manager.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Ptyxis.desktop': <{'position': <8>}>, 'org.gnome.TextEditor.desktop': <{'position': <9>}>, 'org.gnome.Characters.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.fcitx.Fcitx5.desktop': <{'position': <13>}>, 'firefox_firefox.desktop': <{'position': <14>}>, 'fcitx5-configtool.desktop': <{'position': <15>}>, 'org.fcitx.fcitx5-migrator.desktop': <{'position': <16>}>, 'kbd-layout-viewer5.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'org.gnome.Calculator.desktop': <{'position': <0>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <1>}>, 'gnome-language-selector.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'net.nokyan.Resources.desktop': <{'position': <4>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <5>}>, 'update-manager.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Ptyxis.desktop': <{'position': <8>}>, 'org.gnome.TextEditor.desktop': <{'position': <9>}>, 'org.gnome.Characters.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.fcitx.Fcitx5.desktop': <{'position': <13>}>, 'btop.desktop': <{'position': <14>}>, 'fcitx5-configtool.desktop': <{'position': <15>}>, 'org.fcitx.fcitx5-migrator.desktop': <{'position': <16>}>, 'kbd-layout-viewer5.desktop': <{'position': <17>}>, 'kitty.desktop': <{'position': <18>}>, 'debian-uxterm.desktop': <{'position': <19>}>, 'vlc.desktop': <{'position': <20>}>, 'debian-xterm.desktop': <{'position': <21>}>}]
 disabled-extensions=@as []
 enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'btop-mover@local']
-favorite-apps=['org.gnome.Nautilus.desktop', 'snap-store_snap-store.desktop', 'org.gnome.Yelp.desktop', 'google-chrome.desktop', 'qq.desktop', 'CC Switch.desktop', 'wechat.desktop', 'Clash Verge.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'snap-store_snap-store.desktop', 'org.gnome.Yelp.desktop', 'google-chrome.desktop', 'qq.desktop', 'CC Switch.desktop', 'wechat.desktop', 'Clash Verge.desktop', 'code.desktop']
 welcome-dialog-last-shown-version='50.1'
 
 [shell/extensions/dash-to-dock]
