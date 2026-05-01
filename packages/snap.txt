@@ -1,0 +1,12 @@
+Name                       Version                         Rev    Tracking         Publisher    Notes
+bare                       1.0                             5      latest/stable    canonical**  base
+core24                     20260317                        1587   latest/stable    canonical**  base
+desktop-security-center    0+git.25daa58                   151    1/stable/…       canonical**  -
+firmware-updater           0+git.5645b80                   226    1/stable/…       canonical**  -
+gnome-46-2404              0+git.f1cd5fa-sdk0+git.ca9c59c  153    latest/stable/…  canonical**  -
+gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/…  canonical**  -
+mesa-2404                  25.0.7-snap211                  1165   latest/stable/…  canonical**  -
+prompting-client           0+git.2e14a72                   204    1/stable/…       canonical**  -
+snap-store                 0+git.10310e85                  1367   2/stable/…       canonical**  -
+snapd                      2.75.2                          26865  latest/stable    canonical**  snapd
+snapd-desktop-integration  0.9                             361    latest/stable/…  canonical**  -

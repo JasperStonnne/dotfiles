@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=btop
+Exec=/home/jaspersao/.local/bin/btop-laptop.sh
+X-GNOME-Autostart-enabled=true
