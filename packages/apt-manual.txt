@@ -1,6 +1,7 @@
 btop
 cc-switch
 clash-verge
+code
 curl
 dash
 diffutils
