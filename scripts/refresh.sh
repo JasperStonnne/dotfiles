@@ -12,6 +12,7 @@ mkdir -p \
   "$ROOT/fcitx5/.config" \
   "$ROOT/fcitx5-data/.local/share/fcitx5" \
   "$ROOT/fontconfig/.config" \
+  "$ROOT/claude-memory" \
   "$ROOT/gnome" \
   "$ROOT/packages"
 
@@ -44,6 +45,13 @@ cp -r "$HOME/.local/share/fcitx5/rime/rime_ice.userdb" \
 if [[ -d "$HOME/.config/fontconfig" ]]; then
   rm -rf "$ROOT/fontconfig/.config/fontconfig"
   cp -r "$HOME/.config/fontconfig" "$ROOT/fontconfig/.config/fontconfig"
+fi
+
+CLAUDE_PROJECT="$(echo "$HOME" | tr '/' '-')"
+CLAUDE_MEMORY_SRC="$HOME/.claude/projects/$CLAUDE_PROJECT/memory"
+if [[ -d "$CLAUDE_MEMORY_SRC" ]]; then
+  rm -rf "$ROOT/claude-memory/memory"
+  cp -r "$CLAUDE_MEMORY_SRC" "$ROOT/claude-memory/memory"
 fi
 
 apt-mark showmanual > "$ROOT/packages/apt-manual.txt"

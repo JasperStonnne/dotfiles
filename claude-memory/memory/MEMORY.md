@@ -1,0 +1,1 @@
+- [Font preferences and current Linux setup](user_font_preferences.md) — Smile Nerd Font Mono everywhere; LXGW fallback; managed in `~/dotfiles`

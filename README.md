@@ -15,6 +15,7 @@ Personal Linux configuration backup.
 - `fcitx5-data/.local/share/fcitx5/themes`
 - `fcitx5-data/.local/share/fcitx5/rime`
 - `fontconfig/.config/fontconfig`
+- `claude-memory/memory` (Claude Code persistent memory)
 - `gnome/gnome.dconf`
 - `packages/apt-manual.txt`
 - `packages/snap.txt`
@@ -76,3 +77,8 @@ After changing local config, refresh the repo copy:
   downloaded by `scripts/install-fonts.sh` from upstream GitHub releases.
   The fontconfig rules in `fontconfig/.config/fontconfig/conf.d/` reference
   these family names and assume `--with-fonts` was run on a fresh machine.
+- `claude-memory/memory` mirrors `~/.claude/projects/<encoded-$HOME>/memory`.
+  bootstrap and refresh both compute the encoded project dir at runtime, so
+  this works as long as the new machine's `$HOME` follows the same pattern
+  (e.g. `/home/jaspersao`). If the username differs, the resolved path
+  changes accordingly — Claude Code will still pick it up.

@@ -52,6 +52,13 @@ install_dir "$ROOT/fcitx5-data/.local/share/fcitx5/themes" "$HOME/.local/share/f
 install_dir "$ROOT/fcitx5-data/.local/share/fcitx5/rime" "$HOME/.local/share/fcitx5/rime"
 install_dir "$ROOT/fontconfig/.config/fontconfig" "$HOME/.config/fontconfig"
 
+# Claude Code memory: project dir is $HOME with slashes -> dashes.
+if [[ -d "$ROOT/claude-memory/memory" ]]; then
+  CLAUDE_PROJECT="$(echo "$HOME" | tr '/' '-')"
+  install_dir "$ROOT/claude-memory/memory" \
+    "$HOME/.claude/projects/$CLAUDE_PROJECT/memory"
+fi
+
 # fontconfig changed: refresh cache so existing fonts pick up new aliases.
 if command -v fc-cache >/dev/null 2>&1; then
   fc-cache -f >/dev/null
