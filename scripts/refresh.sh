@@ -11,6 +11,7 @@ mkdir -p \
   "$ROOT/applications/.local/share/applications" \
   "$ROOT/fcitx5/.config" \
   "$ROOT/fcitx5-data/.local/share/fcitx5" \
+  "$ROOT/fontconfig/.config" \
   "$ROOT/gnome" \
   "$ROOT/packages"
 
@@ -39,6 +40,11 @@ cp "$HOME/.local/share/fcitx5/rime/custom_phrase.txt" \
 cp -r "$HOME/.local/share/fcitx5/rime/rime_ice.userdb" \
   "$HOME/.local/share/fcitx5/rime/sync" \
   "$ROOT/fcitx5-data/.local/share/fcitx5/rime/"
+
+if [[ -d "$HOME/.config/fontconfig" ]]; then
+  rm -rf "$ROOT/fontconfig/.config/fontconfig"
+  cp -r "$HOME/.config/fontconfig" "$ROOT/fontconfig/.config/fontconfig"
+fi
 
 apt-mark showmanual > "$ROOT/packages/apt-manual.txt"
 
