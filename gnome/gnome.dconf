@@ -107,7 +107,7 @@ initial-size-file-chooser=(890, 550)
 maximized=false
 
 [portal/filechooser/com.google.Chrome]
-last-folder-path='/home/jaspersao/Pictures/Screenshots'
+last-folder-path='/home/jaspersao/data/media/pictures/Screenshots'
 
 [settings-daemon/plugins/color]
 night-light-enabled=true

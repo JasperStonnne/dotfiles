@@ -25,7 +25,7 @@ Personal Linux configuration backup.
 Clone the repo, then run:
 
 ```bash
-cd ~/dotfiles
+cd ~/dev/personal/dotfiles
 ./scripts/bootstrap.sh
 ```
 

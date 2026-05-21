@@ -8,7 +8,7 @@ User decided on **Smile Nerd Font Mono** as the primary font across the entire L
 
 **Important context on the tradeoff**: The user initially flagged that Smile feels wide (FiraCode-based ASCII × 2 for CJK = sparse columns) and briefly switched to Ubuntu Mono + LXGW. After seeing the Smile-everywhere demo, they preferred visual consistency over narrow spacing and made it their actual config. So when they say "字间距大" in a future conversation about Smile, treat it as a known/accepted tradeoff rather than a problem to solve — unless they explicitly reopen the question.
 
-**System touchpoints (all in their dotfiles repo at `~/dotfiles`, github.com/JasperStonnne/dotfiles)**:
+**System touchpoints (all in their dotfiles repo at `~/dev/personal/dotfiles`, github.com/JasperStonnne/dotfiles)**:
 - `fontconfig/.config/fontconfig/conf.d/10-lxgw-cjk-fallback.conf` — generic family chain (Smile primary + LXGW fallback)
 - `fontconfig/.config/fontconfig/conf.d/20-windows-mac-aliases.conf` — redirects hardcoded Windows/macOS Chinese font names (Microsoft YaHei, PingFang SC, Consolas, SimSun, etc.) directly to Smile + LXGW. Two-level alias chains don't cascade in fontconfig, so these must name the concrete fonts, not the generic families.
 - `scripts/install-fonts.sh` — downloads Smile and LXGW from GitHub releases.
