@@ -1,0 +1,46 @@
+# 深紫色主题配置（基于图片分析）
+theme = TokyoNight Storm
+
+# 字体配置
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+
+# 背景透明和模糊效果
+background-opacity = 0.90
+background-blur = true
+background-opacity-cells = true
+
+# 窗口内边距
+window-padding-x = 10
+window-padding-y = 10
+
+# macOS 标题栏样式
+macos-titlebar-style = tabs
+
+# 光标样式
+cursor-style = block
+
+# 自定义深紫色背景（比 Tokyo Night 更深更紫）
+background = #1a1625
+foreground = #c0caf5
+cursor-color = #c0caf5
+selection-background = #2d2040
+selection-foreground = #c0caf5
+
+# 16色配置（深紫色风格）
+palette = 0=#0f0d15
+palette = 1=#f7768e
+palette = 2=#9ece6a
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#a9b1d6
+palette = 8=#565f89
+palette = 9=#f7768e
+palette = 10=#9ece6a
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#bb9af7
+palette = 14=#7dcfff
+palette = 15=#c0caf5

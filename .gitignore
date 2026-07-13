@@ -1,6 +1,9 @@
 *
 !nvim/
 !nvim/init.lua
+!ghostty/
+!ghostty/config.ghostty
 !zshrc
+!Brewfile
 !README.md
 !.gitignore
